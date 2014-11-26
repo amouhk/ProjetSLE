@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "blk_mem_gen_v8_2" -L "fifo_generator_v12_0" -L "proc_common_v4_0" -L "axi_bram_ctrl_v4_0" -L "xil_defaultlib" -L "secureip" --snapshot "tb_ram_top_behav" --prj "/tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.sim/sim_1/behav/tb_ram_top.prj" "xil_defaultlib.tb_ram_top" 

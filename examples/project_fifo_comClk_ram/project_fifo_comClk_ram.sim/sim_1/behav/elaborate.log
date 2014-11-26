@@ -1,0 +1,24 @@
+Vivado Simulator 2014.3
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.3/bin/unwrapped/win64.o/xelab.exe -wto 89f29022845446cbb4b93ca1d574bd8c --debug typical --relax -L fifo_generator_v12_0 -L xil_defaultlib -L secureip --snapshot tb_fifo_behav xil_defaultlib.tb_fifo -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity fifo_generator_v12_0.fifo_generator_v12_0_bhv_ss [\fifo_generator_v12_0_bhv_ss("zy...]
+Compiling architecture behavioral of entity fifo_generator_v12_0.fifo_generator_v12_0_conv [\fifo_generator_v12_0_conv(1,0,8...]
+Compiling architecture behavioral of entity fifo_generator_v12_0.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(1,0,8,"...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.fifo_generator_v12_0 [\fifo_generator_v12_0(1,0,8,"Bla...]
+Compiling architecture fifo_arch of entity xil_defaultlib.fifo [fifo_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_fifo
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_fifo_behav

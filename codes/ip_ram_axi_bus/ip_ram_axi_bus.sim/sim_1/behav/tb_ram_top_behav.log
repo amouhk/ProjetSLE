@@ -1,0 +1,34 @@
+Vivado Simulator 2014.1
+Time resolution is 1 ps
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 1  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 1  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/BRST_CNT_LD_PROCESS  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/rd_chnl.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 1  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.<: metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__366  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.<: metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__366  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__332  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__332  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 3  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 6  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_WR_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 6  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 6  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 0 ps  Iteration: 8  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd
+Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Time: 50 ns  Iteration: 7  Process: /tb_ram_top/U1/ram_axi_i/axi_bram_ctrl_0/U0/gext_inst/abcv4_0_ext_inst/gen_axi4/I_FULL_AXI/I_RD_CHNL/gen_ua_narrow/I_UA_NARROW/line__420  File: /tp/xph3sle/xph3sle508/project_NI/ip_ram_axi_bus/ip_ram_axi_bus.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/ua_narrow.vhd

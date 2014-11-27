@@ -124,6 +124,7 @@ begin
                    CPU_we, CPU_addr, RVALID, ARREADY, RDATA, fifo_empty, fifo_full)
                    
         variable masque : std_logic_vector(31 downto 0);
+        variable temp   : std_logic_vector(31 downto 0);
     begin
     -- initialisation des signaux en entré du process combinatoire
         etat_d                  <= etat_q ;
@@ -178,9 +179,10 @@ begin
                     read_d <= conv_std_logic_vector(unsigned(read_q) + 4,32) and masque;
                     etat_d <= S_wait_rb_hi;
                 else
-                    ARVALID <= '1';
-                    masque := (3 => '0', others => '1');
-                    ARADDR  <= (read_q and masque)(15 downto 0);
+                    ARVALID  <= '1';
+                    masque   := (3 => '0', others => '1');
+                    temp     := read_q and masque;
+                    ARADDR   <= temp(15 downto 0);
                 end if;
                 
             when S_wait_rb_hi =>

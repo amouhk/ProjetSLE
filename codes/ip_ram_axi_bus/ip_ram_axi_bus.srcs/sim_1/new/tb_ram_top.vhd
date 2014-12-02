@@ -147,29 +147,61 @@ U1: ram_axi_wrapper
     );
     
  ACLK <= not(ACLK) after 5 ns;
- ARESETN <= '1', '0' after 10 ns, '1' after 40 ns;
+ ARESETN <= '0', '1' after 100 ns; -- '1' after 40 ns;
 
-       
- read_process: process
- begin
-    wait until ARESETN'event and ARESETN = '1';
+write_process: process
+begin 
+    wait until ARESETN = '1';
+    wait for 25 ns;
+    --S00_AXI_awid  <= "0000";
+    S00_AXI_awaddr  <=  X"C000";
+    S00_AXI_awlen <= X"00";
+    S00_AXI_awsize  <= "010";
+    S00_AXI_awburst  <= "00";
+    S00_AXI_awvalid  <= '1';
     
-    wait until  S00_AXI_arready'event and S00_AXI_arready = '1';
+    S00_AXI_wdata  <= X"D0000000";
+    S00_AXI_wstrb  <= X"F";
+    S00_AXI_wlast  <= '1';
+    S00_AXI_wvalid  <= '1';
+    
     wait for 10 ns;
-    -- wait until ACLK'event and ACLK = '1';
-        for i in 1 to 5 loop
-            S00_AXI_arvalid <= '1';
-            S00_AXI_araddr <= X"0010";
-            S00_AXI_rready <= '0';
-            
-            wait for 10 ns;
-            S00_AXI_rready <= '1';
-            S00_AXI_arvalid <= '0';
-            S00_AXI_araddr <= (others => 'X');
-                
-        end loop;
+   
+    --S00_AXI_awid  <= (others => 'X');
+    S00_AXI_awaddr  <=  (others => 'X');
+    S00_AXI_awlen <= (others => 'X');
+    S00_AXI_awsize  <= (others => 'X');
+    S00_AXI_awburst  <= (others => 'X');
+    S00_AXI_awvalid  <= '0';
     
- end process;
+    S00_AXI_wdata  <= (others => 'X');
+    S00_AXI_wstrb  <=(others => 'X');
+    S00_AXI_wlast  <= '0';
+    S00_AXI_wvalid  <= '0';
+ 
+    --S00_AXI_bready  <=  
+end process;
+       
+-- read_process: process
+-- begin
+--    wait until ARESETN'event and ARESETN = '1';
+    
+--    wait until  S00_AXI_arready'event and S00_AXI_arready = '1';
+--    wait for 10 ns;
+--    -- wait until ACLK'event and ACLK = '1';
+--        for i in 1 to 5 loop
+--            S00_AXI_arvalid <= '1';
+--            S00_AXI_araddr <= X"0010";
+--            S00_AXI_rready <= '0';
+            
+--            wait for 10 ns;
+--            S00_AXI_rready <= '1';
+--            S00_AXI_arvalid <= '0';
+--            S00_AXI_araddr <= (others => 'X');
+                
+--        end loop;
+    
+-- end process;
     
 
 
